@@ -1,0 +1,19 @@
+- var title = "Зоголовок сайта";
+doctype html
+html(lang="ru")
+    block head
+        head
+            meta(charset="utf-8")
+            title #{title}
+            meta(content="width=device-width, initial-scale=1" name="viewport")
+            meta(content="ie=edge" http-equiv="x-ua-compatible")
+            link(rel="stylesheet" href="css/style.min.css")
+    body
+        block header
+          include ./components/header/header
+        block content
+        block footer
+          include ./components/footer/footer
+        block modal
+        block scripts
+          script(src="./js/main.js")
