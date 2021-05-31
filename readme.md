@@ -57,7 +57,7 @@ a {
 
 ## Начало работы
 
-* Устанавливаем пакеты из package.json: ```yarn i```;
+* Устанавливаем пакеты из package.json: ```yarn install``` или  ```npm i```;
 * Устанавливаем следующие расширения для vs code: ```EditorConfig for VS Code, ESLint, Prettier - Code formatter и stylelint```;
 * Добавляем настройки для рабочей области в VS Code . ```vscode/settings.json:```;
 ```
