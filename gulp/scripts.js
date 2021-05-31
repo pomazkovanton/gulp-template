@@ -5,7 +5,7 @@ const webpack = require('webpack');
 const webpackStream = require('webpack-stream');
 const webpackConfig = require('../webpack.config.js');
 const uglify = require('gulp-uglify-es').default;
-import browserSync = require('browser-sync');
+const browserSync = require('browser-sync');
 
 const scripts = () => src('./src/js/main.js')
   .pipe(webpackStream(webpackConfig), webpack)
